@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/verticalLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/logoView"
+            android:layout_width="match_parent"
+            android:layout_height="227dp"
+            android:background="@color/white"
+            android:contentDescription="@string/logoView"
+            android:cropToPadding="false"
+            app:srcCompat="@drawable/logo" />
+
+        <Button
+            android:id="@+id/textToSpeech"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@android:dimen/dialog_min_width_minor"
+            android:background="@color/colorPrimaryDark"
+            android:padding="@dimen/button_padding"
+            android:text="@string/textToSpeech"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/chooseYourSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/chooseYourSwitch"
+            android:textSize="24sp"
+            app:fontFamily="sans-serif" />
+
+        <LinearLayout
+            android:id="@+id/horizontalLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/switchA"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/button_padding"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryDark"
+                android:padding="@dimen/padding_button"
+                android:text="@string/switchAText"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/switchB"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/button_padding"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryDark"
+                android:padding="@dimen/padding_button"
+                android:text="@string/switchBText"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/switchC"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/button_padding"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryDark"
+                android:padding="@dimen/padding_button"
+                android:text="@string/switchCText"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/switchD"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/button_padding"
+                android:layout_weight="1"
+                android:background="@color/colorPrimaryDark"
+                android:padding="@dimen/padding_button"
+                android:text="@string/switchDText"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/verticalLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/horizontalLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/restartButton"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/button_padding"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="@dimen/button_padding"
+                    android:text="@string/restartButtonText"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/playButton"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/button_padding"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="@dimen/button_padding"
+                    android:text="@string/play"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/pauseButton"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/button_padding"
+                    android:layout_weight="1"
+                    android:background="@color/colorAccent"
+                    android:padding="@dimen/button_padding"
+                    android:text="@string/pause"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/uploadButton"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_button"
+                android:background="@color/colorPrimaryDark"
+                android:padding="@dimen/padding_button"
+                android:text="@string/uploadSong"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

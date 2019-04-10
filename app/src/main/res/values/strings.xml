@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SwitchUserUI</string>
+    <color name="white">#FFFFFF</color>
+    <string name="logoView">SwitchAdmin</string>
+    <string name="textToSpeech">Text To Speech</string>
+    <string name="chooseYourSwitch">Choose Your Switch</string>
+    <string name="switchOne">Switch One</string>
+    <string name="switchTwo">Switch Two</string>
+    <string name="switchThree">Switch Three</string>
+    <string name="switchFour">Switch Four</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="uploadSong">Upload A Song</string>
+    <string name="switchAText">A Note</string>
+    <string name="switchBText">B Note</string>
+    <string name="switchCText">C Note</string>
+    <string name="switchDText">D Note</string>
+    <string name="restartButtonText">Restart</string>
+    <string name="restartButtonText">Restart</string>
+</resources>
